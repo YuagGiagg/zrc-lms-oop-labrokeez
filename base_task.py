@@ -45,7 +45,7 @@ class Homework(AcademicTask):
         self.is_graded = True
         print(f"Graded '{self.title}': {self.score}/{self.max_points}")
 
-
+#this will serve as an example:
 hw = Homework("Python ABCs", 100)
 hw.submit_work()
 hw.grade_work(95)
